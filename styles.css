@@ -1,0 +1,119 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #2e003e;
+  color: #4b0082;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #4b0082;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #4b0082;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.conteudo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.conteudo {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1em;
+  margin: 10px 0 5px;
+  color: #4b0082;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.radio-container label {
+  margin: 0 10px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #4b0082;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.botao-aleatorio {
+  background-color: #8a2be2;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.botao-aleatorio:hover {
+  background-color: #4b0082;
+}
+
+.botao-confirmar {
+  background-color: #753fe1;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.botao-confirmar:hover {
+  background-color: #7b68ee;
+}

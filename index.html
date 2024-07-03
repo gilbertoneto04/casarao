@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presença Casarão</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-mobile.css" media="only screen and (max-width: 768px)">
+</head>
+
+<body>
+    <div class="conteudo-container">
+        <div class="conteudo">
+            <h1>CONFIRME SUA PRESENÇA</h1>
+            <h3>Vem aí o maior evento de Garanhuns e região, confirme sua presença e não fique de fora</h3>
+            <h3><br>Local: Casarão (Perto do relógio das flores)<br>Data: 06/07/2024 17:30</h3>
+            <form action="https://formspree.io/f/mjkbvoey" method="POST">
+                <label for="nome">Seu nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui" required>
+                <label for="bebida">Digite a bebida de sua preferência</label><br>
+                <input type="text" id="bebida" name="bebida" value="CAIPIRINHA!!!" placeholder="Apagou pq????" required>
+
+                <button type="button" class="botao-aleatorio" onmouseover="moverBotaoAleatorio(event)">Sou chate e não
+                    irei a tal evento</button><br>
+                <button type="submit" class="botao-confirmar">Confirmar Presença</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
